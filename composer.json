@@ -70,7 +70,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "App\\Tests\\": "tests/",
+            "Codeception\\Module\\Symfony\\": "tests/Support/Codeception/Module/Symfony/"
         }
     },
     "replace": {

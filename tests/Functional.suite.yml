@@ -9,3 +9,4 @@ modules:
         - Doctrine:
               depends: Symfony
               cleanup: true
+        - App\Tests\Support\Helper\Environment
